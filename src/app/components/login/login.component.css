@@ -1,0 +1,12 @@
+.info,.login{
+    height: 368px;
+    border: 1px solid black;
+}
+.login{
+    background-color: #F1F9FE;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
