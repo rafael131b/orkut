@@ -1,9 +1,44 @@
+@import url('https://fonts.googleapis.com/css2? family= Rubik & display=swap');
 .info,.login{
     height: 368px;
-    border: 1px solid black;
+    
 }
 .login{
     background-color: #F1F9FE;
+}
+.content{
+    width: 369px;
+    height: 182px;
+   
+    font-family: 'Rubik';
+}
+.title h1{
+    font-size: 70px;
+    color: #ED2590;
+    font-weight: bold;
+}
+.pink{
+    color: #ED2590; 
+}
+.title p{
+    font-size: 12px;
+}
+.entrar{
+    width: 209px;
+}
+.login p{
+    width: 60%;
+    text-align: center;
+}
+button,input{
+    height: 33px;
+    margin-top: 10px;
+}
+button{
+    background-color: #2E7BB4;
+}
+input::placeholder{
+  padding: 10px;
 }
 section{
     height: 100vh;
