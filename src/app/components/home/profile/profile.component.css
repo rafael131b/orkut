@@ -1,0 +1,23 @@
+.profile{
+    width:100% ;
+    background-color: #fff;
+    min-height: 546px;
+    padding: 15px 8px;
+}
+.photo{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+.name{
+    color: #2E7BB4;
+}
+.job{
+    color: #999999;
+}
+.content{
+    margin: 10px 0px;
+}
+.content p{
+    font-size: 11px;
+}

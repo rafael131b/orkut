@@ -1,7 +1,8 @@
-nav{
-    min-height: 48px;
-    background-color: #5292C1;
+.row div{
+    border: 1px solid black;
+    min-height: calc(100vh - 48px);
+    
 }
-.logo{
-    height: 40px;
+.timeLine{
+    margin: 0px 10px;
 }

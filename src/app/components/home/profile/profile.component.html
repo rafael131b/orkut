@@ -1,0 +1,23 @@
+<div class="profile">
+    <img src="assets/img/profile.jpg" alt="foto-perfil" class="img-fluid photo">
+    <hr>
+     <h5 class="text-start name">Gabriel Duarte</h5>
+     <p class="text-start job">Desenvolvedor Java</p>
+     <div class="info " *ngFor="let dado of dados,let i=index">
+        <span  class="d-flex align-items-center content">
+            <img src="{{dado.imgJog[0]}}" alt=""><p class="ms-2">{{dado.job}}</p>
+        </span>
+        <span class="d-flex align-items-centercontent">
+          <img src="{{dado.imgJog[1]}}" alt=""><p class="ms-2">{{dado.local}}</p>
+        </span>
+        <span class="d-flex   align-items-center content">
+            <img src="{{dado.imgJog[2]}}" alt=""><p class="ms-2">{{dado.email}}</p>
+          </span>
+          <span class="d-flex align-items-center content">
+            <img src="{{dado.imgJog[1]}}" alt=""><p class="ms-2">{{dado.linkedin}}</p>
+          </span>
+          <span class="d-flex align-items-center content">
+            <img src="{{dado.imgJog[3]}}" alt=""><p class="ms-2">{{dado.twitter}}</p>
+          </span>
+     </div>
+</div>
