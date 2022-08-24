@@ -1,8 +1,10 @@
-p,*{
+p,*,h1,h2,h3,h4,h5,h6,hr{
     padding: 0;
     margin: 0;
 }
-
+hr{
+    margin:10px 0px ;
+}
 body{
     background-color: #BBCDE8;
     min-height: 100vh;

@@ -1,18 +1,14 @@
-<nav class="container-fluid d-flex align-items-center  justify-content-between">
-    <div class="container d-flex  align-items-center justify-content-between ">
-        <div class="d-flex align-items-center">
-            <img src="assets/img/logo.png" alt="logo" class="img-fluid logo">
-            <ul class="d-flex text-white list-unstyled m-0 ms-5">
-                <li class="p-3">inicio</li>
-                <li class="p-3">pull requests</li>
-                <li class="p-3">repositorios</li>
-                <li class="p-3">explore</li>
-                <li class="p-3">salvos</li>
-            </ul>
+<app-menu></app-menu>
+<div class="container p-3">
+    <div class="row">
+        <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12 text-center">
+            <app-profile  [dados]="informacaoPessoal" [org]="organizations"></app-profile>
         </div>
-        <div>
-            <a href="#" class="text-white p-2">sair</a>
-            <input type="text" class="rounded" placeholder="buscar">
+        <div class="col-lg-6 col-md-7 col-sm-12  col-xs-12 text-center timeLine">
+            timeLine
+        </div>
+        <div class="col-lg-3 col-md-11 col-sm-12  col-xs-12 text-center">
+            frieds
         </div>
     </div>
-</nav>
+</div>
