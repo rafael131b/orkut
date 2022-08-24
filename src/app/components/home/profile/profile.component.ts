@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Profile } from '../../../interfaces/profile';
+import { Profile, IOrganization } from '../../../interfaces/profile';
 
 @Component({
   selector: 'app-profile',
@@ -9,6 +9,7 @@ import { Profile } from '../../../interfaces/profile';
 export class ProfileComponent implements OnInit {
 
 @Input() dados:Profile[]=[]
+@Input() org:IOrganization[]=[]
 
   constructor() { }
 

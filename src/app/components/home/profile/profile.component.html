@@ -7,10 +7,10 @@
         <span  class="d-flex align-items-center content">
             <img src="{{dado.imgJog[0]}}" alt=""><p class="ms-2">{{dado.job}}</p>
         </span>
-        <span class="d-flex align-items-centercontent">
+        <span class="d-flex align-items-center content">
           <img src="{{dado.imgJog[1]}}" alt=""><p class="ms-2">{{dado.local}}</p>
         </span>
-        <span class="d-flex   align-items-center content">
+        <span class="d-flex   align-items-center content ">
             <img src="{{dado.imgJog[2]}}" alt=""><p class="ms-2">{{dado.email}}</p>
           </span>
           <span class="d-flex align-items-center content">
@@ -19,5 +19,15 @@
           <span class="d-flex align-items-center content">
             <img src="{{dado.imgJog[3]}}" alt=""><p class="ms-2">{{dado.twitter}}</p>
           </span>
-     </div>
+          <hr>
+          
+        </div>
+        <h5 class="text-start organization">Organizações</h5>
+        <div class="org mt-2">
+          <span *ngFor="let orgnizations of org" class="d-flex mt-1">
+            <img src="{{orgnizations.org}}" alt="imagem">
+            <p  class="ms-2">{{orgnizations.name}}</p>
+          </span>
+
+        </div>
 </div>

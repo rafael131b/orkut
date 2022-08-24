@@ -16,6 +16,14 @@ export class HomeComponent implements OnInit {
     twitter:"@eusouBatman"
   }
   ]
+
+  organizations=[
+    {org:"assets/img/rocketseat.png",name:"rocketseat"},
+    {org:"assets/img/rocketseat.png",name:"Omini Theme"},
+    {org:"assets/img/rocketseat.png",name:"rocketseat Education"},
+    {org:"assets/img/rocketseat.png",name:"starlab"},
+
+  ]
   constructor() { }
 
   ngOnInit(): void {
