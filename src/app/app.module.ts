@@ -8,6 +8,11 @@ import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
 import { MenuComponent } from './components/home/menu/menu.component';
 import { ProfileComponent } from './components/home/profile/profile.component';
+import { PostComponent } from './components/home/post/post.component';
+import { NgbdModalConfig } from './components/home/post/modal/modal.component';
+
+
+
 
 @NgModule({
   declarations: [
@@ -15,7 +20,11 @@ import { ProfileComponent } from './components/home/profile/profile.component';
     LoginComponent,
     HomeComponent,
     MenuComponent,
-    ProfileComponent
+    ProfileComponent,
+    PostComponent,
+    NgbdModalConfig
+  
+    
   ],
   imports: [
     BrowserModule,
